@@ -4,6 +4,11 @@ import Navbar from './Components/Navbar';
 import Navbar2 from "./Components/Navbar2"
 import SectionOne from './Components/SectionOne';
 import SectionTwo from './Components/SectionTwo';
+import SectionThird from './Components/SectionThird';
+import Banner from './Components/Banner';
+import Recomend from './Components/Recomended';
+import Sale from './Components/Sale';
+import Comments from "./Components/Comments"
 
 
 
@@ -17,6 +22,11 @@ export default function Home() {
    </div>
     <SectionOne/>
     <SectionTwo/>
+    <SectionThird/>
+    <Banner/>
+    <Recomend/>
+    <Sale/>
+    <Comments/>
     </div>
   );
 }

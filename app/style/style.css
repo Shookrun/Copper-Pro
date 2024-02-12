@@ -35,7 +35,7 @@
     grid-template-columns: repeat(auto-fit,minmax(350px, auto));
  /* align-items: center; */
 padding-left:60px;
-    
+ /* background-color: red;    */
 }
  
 .swiper{

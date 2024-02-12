@@ -58,7 +58,7 @@ const SectionOne = () => {
             {card.map(({ id, title, img }) => (
               <Stack
                 key={id}
-                className="w-[70%] hover:scale-105 cursor-pointer group h-[80%] relative border justify-end transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
+                className="w-[80%] hover:scale-105 cursor-pointer group h-[80%] relative border  transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
                 // sx={{backgroundImage:`url(${img})`}}
               >
                 <Image alt="Image" src={img} fill className="z-[5]" />
