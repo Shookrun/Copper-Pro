@@ -46,15 +46,46 @@ export default function Slider() {
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={10}
-        slidesPerView={3}
+        spaceBetween={20}
+        slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
         className="w-6/12 "
       >
-        <SwiperSlide className="bg-blue-500">
+       
+        <SwiperSlide className="h-48">
+<Stack direction="row" className="bg-white w-full  ">
+{card.map(({ id, name, description }) => (
+    <div key={id} className=" flex flex-col justify-center bg-red h-[300px] p-3 ">
+      <Image src="/pp.png" alt="Profile" width={50} height={50} className="" />
+      <Typography variant="h5">{name}</Typography>
+      <Typography sx={{ fontStyle: 'italic', m: 1 }}>
+        {description}
+      </Typography>
+    </div>
+  ))}
+</Stack>
+</SwiperSlide>
+  
+
+
+
+<SwiperSlide className="bg-blue-500">
+<Stack direction="row">
+{card.map(({ id, name, description }) => (
+  <div key={id} className="bg-red">
+      <Image src="/pp.png" alt="Profile" width={100} height={100} />
+      <Typography variant="h5">{name}</Typography>
+      <Typography sx={{ fontStyle: 'italic', m: 1 }}>
+        {description}
+      </Typography>
+    </div>
+  ))}
+</Stack>
+</SwiperSlide>
+<SwiperSlide className="bg-blue-500">
 <Stack direction="row">
 {card.map(({ id, name, description }) => (
     <div key={id} className="bg-red">
