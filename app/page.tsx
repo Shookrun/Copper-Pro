@@ -9,6 +9,7 @@ import Banner from './Components/Banner';
 import Recomend from './Components/Recomended';
 import Sale from './Components/Sale';
 import Comments from "./Components/Comments"
+import Informations from './Components/Informations';
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
     <Recomend/>
     <Sale/>
     <Comments/>
+    <Informations/>
     </div>
   );
 }

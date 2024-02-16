@@ -90,3 +90,15 @@ border-radius: 1px;
     padding-bottom: 50px;
     user-select: none;
 }
+
+
+.card{
+    border:1px solid;
+    padding: 10px;
+}
+
+.info{
+    background-image: url(/public/information.png);
+    background-position: center;
+    background-size: cover;
+}

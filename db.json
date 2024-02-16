@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "image": "/public/cards/img1.png"
+      
+    },
+    {
+      "name": "David",
+      "salary": "5000",
+      "id": 2
+    }
+  ]
