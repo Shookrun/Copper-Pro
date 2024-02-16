@@ -1,15 +1,15 @@
 import React from 'react';
 import './style/style.css';
-import Navbar from './Components/Navbar';
-import Navbar2 from "./Components/Navbar2"
-import SectionOne from './Components/SectionOne';
-import SectionTwo from './Components/SectionTwo';
-import SectionThird from './Components/SectionThird';
-import Banner from './Components/Banner';
-import Recomend from './Components/Recomended';
-import Sale from './Components/Sale';
-import Comments from "./Components/Comments"
-import Informations from './Components/Informations';
+import Navbar from './Components/Header/Navbar';
+import Navbar2 from "./Components/Header/Navbar2"
+import SectionOne from './Components/Main/SectionOne';
+import SectionTwo from './Components/Main/SectionTwo';
+import SectionThird from './Components/Main/SectionThird';
+import Banner from './Components/Main/Banner';
+import Recomend from './Components/Main/Recomended';
+import Sale from './Components/Main/Sale';
+import Comments from "./Components/Main/Comments"
+import Informations from './Components/Footer/Informations';
 
 
 

@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             </div>
             {modalOpen && (
               <div className="absolute left-0 bottom-0 h-[100%] w-[100%] bg-white  text-red">
-                <button onClick={toggleModal}>Kapat</button>
+                <button onClick={toggleModal}>Bağla</button>
               </div>
             )}
           </Stack>

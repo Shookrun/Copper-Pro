@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Image from "next/image";
-import "../style/style.css"
+import "@/app/style/style.css"
 
 interface CardItem {
     id: number;
