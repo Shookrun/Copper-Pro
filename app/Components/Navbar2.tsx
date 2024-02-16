@@ -1,14 +1,14 @@
-"use client";
+import React from "react";
 import { Container, Stack, Typography } from "@mui/material";
-const Navbar2 = () => {
 
+const Navbar2: React.FC = () => {
   return (
     <div className="relative">
-      <Stack className="my-40 gap-12 justify-between  h-96 max-sm:my-10   ">
+      <Stack className="my-40 gap-12 justify-between h-96 max-sm:my-10">
         <Container maxWidth="lg" className="flex flex-col gap-4">
           <Typography
             variant="h1"
-            className="text text-white transition-all w-[45%] caret-slate-50 max-sm:text-[30px]  "
+            className="text text-white transition-all w-[45%] caret-slate-50 max-sm:text-[30px]"
           >
             ƏN YAXŞISI
           </Typography>
@@ -27,9 +27,9 @@ const Navbar2 = () => {
             <Typography variant="subtitle1">Al</Typography>
           </Stack>
           <Stack direction="row" className="gap-2 transition-all">
-            <div className="  transition-all bg-white  hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px] "></div>
-            <div className="transition-all bg-white  hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px] "></div>
-            <div className="transition-all bg-white  hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px] "></div>
+            <div className="transition-all bg-white hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px]"></div>
+            <div className="transition-all bg-white hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px]"></div>
+            <div className="transition-all bg-white hover:bg-gradient-to-r from-gradient1 to-gradient2 w-[10px] h-[10px]"></div>
           </Stack>
         </Container>
       </Stack>

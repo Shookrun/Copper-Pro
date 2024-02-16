@@ -1,7 +1,7 @@
-import Container from "@mui/material/Container";
-import { Stack, Typography } from "@mui/material";
+import React from "react";
+import { Container, Stack, Typography } from "@mui/material";
 import Image from "next/image";
-import "@/app/style/style.css";
+
 const images = [
   "/card1.png",
   "/card2.png",
@@ -11,8 +11,14 @@ const images = [
   "/card6.png",
 ];
 
-const SectionOne = () => {
-  let card = [
+interface Card {
+  id: number;
+  title: string;
+  img: string;
+}
+
+const SectionOne: React.FC = () => {
+  const card: Card[] = [
     {
       id: 1,
       title: "EFİR YAĞLARI ÜÇÜN",
@@ -44,10 +50,11 @@ const SectionOne = () => {
       img: images[5],
     },
   ];
+
   return (
     <div>
       <Container>
-        <Stack className=" items-center   h-[100%]">
+        <Stack className="items-center h-[100%]">
           <Typography variant="h4" className="text">
             BİZİM MƏHSULLAR
           </Typography>
@@ -58,7 +65,7 @@ const SectionOne = () => {
             {card.map(({ id, title, img }) => (
               <Stack
                 key={id}
-                className="w-[80%] hover:scale-105 cursor-pointer group h-[80%] relative border  transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
+                className="w-[80%] hover:scale-105 cursor-pointer group h-[80%] relative border transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
                 // sx={{backgroundImage:`url(${img})`}}
               >
                 <Image alt="Image" src={img} fill className="z-[5]" />

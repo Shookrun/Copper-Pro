@@ -9,141 +9,146 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Image from "next/image";
 
-export default function Slider() {
+
+
+
+const Slider: React.FC = () => {
   return (
-   <div className="swiper_slider">
-     <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={10}
-      slidesPerView={3}
-      navigation
-      pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
-      className="w-6/12 "
-    >
-      <SwiperSlide className=" h-48">
-       <div className="h-80 w-full flex flex-col justify-between">
-       <Image
-          src="/card1.png"
-          alt="Image"
-          width={130}
-          height={130}
-          className="w-full"
-        />
-       <div className="flex justify-between items-center relative  h-20">
-       <Typography className="text text-sm" variant="subtitle1">
-        çİnİ qulplu mİs çaynİk 
-        </Typography>
-        <Typography className="text text-md font-bold" variant="subtitle1">
-        88 AZN
-        </Typography>
-       </div>
-       <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
-       <CiHeart/>
-       </div>
-       </div>
-      </SwiperSlide>
-
-      <SwiperSlide className="">
-         <div className="h-80 w-full flex flex-col justify-between">
-         <Image
-          src="/card2.png"
-          alt="Image"
-          width={130}
-          height={130}
-          className="w-full"
-        />
-       <div className="flex justify-between items-center relative  h-20">
-       <Typography className="text text-sm" variant="subtitle1">
-        çİnİ qulplu mİs çaynİk 
-        </Typography>
-        <Typography className="text text-md font-bold" variant="subtitle1">
-        88 AZN
-        </Typography>
-       </div>
-       <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
-       <CiHeart/>
-       </div>
-       </div>
-      </SwiperSlide>
-
-      <SwiperSlide className="">
-        
+    <div className="swiper_slider">
+      <Swiper
+       // install Swiper modules
+       modules={[Navigation, Pagination, Scrollbar, A11y]}
+       spaceBetween={10}
+       slidesPerView={3}
+       navigation
+       pagination={{ clickable: true }}
+       onSwiper={(swiper) => console.log(swiper)}
+       onSlideChange={() => console.log("slide change")}
+       className="w-6/12 "
+     >
+       <SwiperSlide className=" h-48">
         <div className="h-80 w-full flex flex-col justify-between">
         <Image
-          src="/card3.png"
-          alt="Image"
-          width={130}
-          height={130}
-          className="w-full"
-        />
-       <div className="flex justify-between items-center relative  h-20">
-       <Typography className="text text-sm" variant="subtitle1">
-        çİnİ qulplu mİs çaynİk 
-        </Typography>
-        <Typography className="text text-md font-bold" variant="subtitle1">
-        88 AZN
-        </Typography>
-       </div>
-       <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
-       <CiHeart/>
-       </div>
-       </div>
-      </SwiperSlide>
-
-      <SwiperSlide className="">
-        
-        <div className="h-80 w-full flex flex-col justify-between">
-        <Image
-          src="/card1.png"
-          alt="Image"
-          width={130}
-          height={130}
-          className="w-full"
-        />
-       <div className="flex justify-between items-center relative  h-20">
-       <Typography className="text text-sm" variant="subtitle1">
-        çİnİ qulplu mİs çaynİk 
-        </Typography>
-        <Typography className="text text-md font-bold" variant="subtitle1">
-        88 AZN
-        </Typography>
-       </div>
-       <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
-       <CiHeart/>
-       </div>
-       </div>
-      </SwiperSlide>
-
-      <SwiperSlide className="">
-       
+           src="/card1.png"
+           alt="Image"
+           width={130}
+           height={130}
+           className="w-full"
+         />
+        <div className="flex justify-between items-center relative  h-20">
+        <Typography className="text text-sm" variant="subtitle1">
+         çİnİ qulplu mİs çaynİk 
+         </Typography>
+         <Typography className="text text-md font-bold" variant="subtitle1">
+         88 AZN
+         </Typography>
+        </div>
+        <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
+        <CiHeart/>
+        </div>
+        </div>
+       </SwiperSlide>
+ 
+       <SwiperSlide className="">
+          <div className="h-80 w-full flex flex-col justify-between">
+          <Image
+           src="/card2.png"
+           alt="Image"
+           width={130}
+           height={130}
+           className="w-full"
+         />
+        <div className="flex justify-between items-center relative  h-20">
+        <Typography className="text text-sm" variant="subtitle1">
+         çİnİ qulplu mİs çaynİk 
+         </Typography>
+         <Typography className="text text-md font-bold" variant="subtitle1">
+         88 AZN
+         </Typography>
+        </div>
+        <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
+        <CiHeart/>
+        </div>
+        </div>
+       </SwiperSlide>
+ 
+       <SwiperSlide className="">
+         
          <div className="h-80 w-full flex flex-col justify-between">
          <Image
-          src="/card2.png"
-          alt="Image"
-          width={130}
-          height={130}
-          className="w-full"
-        />
-       <div className="flex justify-between items-center relative  h-20">
-       <Typography className="text text-sm" variant="subtitle1">
-        çİnİ qulplu mİs çaynİk 
-        </Typography>
-        <Typography className="text text-md font-bold" variant="subtitle1">
-        88 AZN
-        </Typography>
-       </div>
-       <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
-       <CiHeart/>
-       </div>
-       </div>
-      </SwiperSlide>
+           src="/card3.png"
+           alt="Image"
+           width={130}
+           height={130}
+           className="w-full"
+         />
+        <div className="flex justify-between items-center relative  h-20">
+        <Typography className="text text-sm" variant="subtitle1">
+         çİnİ qulplu mİs çaynİk 
+         </Typography>
+         <Typography className="text text-md font-bold" variant="subtitle1">
+         88 AZN
+         </Typography>
+        </div>
+        <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
+        <CiHeart/>
+        </div>
+        </div>
+       </SwiperSlide>
+ 
+       <SwiperSlide className="">
+         
+         <div className="h-80 w-full flex flex-col justify-between">
+         <Image
+           src="/card1.png"
+           alt="Image"
+           width={130}
+           height={130}
+           className="w-full"
+         />
+        <div className="flex justify-between items-center relative  h-20">
+        <Typography className="text text-sm" variant="subtitle1">
+         çİnİ qulplu mİs çaynİk 
+         </Typography>
+         <Typography className="text text-md font-bold" variant="subtitle1">
+         88 AZN
+         </Typography>
+        </div>
+        <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
+        <CiHeart/>
+        </div>
+        </div>
+       </SwiperSlide>
+ 
+       <SwiperSlide className="">
+        
+          <div className="h-80 w-full flex flex-col justify-between">
+          <Image
+           src="/card2.png"
+           alt="Image"
+           width={130}
+           height={130}
+           className="w-full"
+         />
+        <div className="flex justify-between items-center relative  h-20">
+        <Typography className="text text-sm" variant="subtitle1">
+         çİnİ qulplu mİs çaynİk 
+         </Typography>
+         <Typography className="text text-md font-bold" variant="subtitle1">
+         88 AZN
+         </Typography>
+        </div>
+        <div className="absolute right-0 text-[25px] bg-white py-2 transition-all duration-300 hover:text-red">
+        <CiHeart/>
+        </div>
+        </div>
+       </SwiperSlide>
+ 
+      
+     </Swiper>
+    </div>
+    
+   );
+ }
 
-     
-    </Swiper>
-   </div>
-   
-  );
-}
+export default Slider;
