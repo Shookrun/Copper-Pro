@@ -1,4 +1,5 @@
 // components/ImageGallery.tsx
+import { Typography } from '@mui/material';
 import axios from 'axios';
 // import { getData } from './db.json';
 
@@ -10,12 +11,15 @@ const ImageGallery = async () => {
 
   return (
       <div className='card'>
-        {data?.map(({id,title,url}) => (
+        {data?.map(({id,title,url,content}) => (
           <div key={id} className='card flex flex-col'>
            <div className='card bg-red w-[7%]'>
            <Image src={url} alt={title} width={100} height={100} />
            </div>
             <h3>{title}</h3>
+            <Typography>
+              {content}
+            </Typography>
           </div>
         ))}
       </div>

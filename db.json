@@ -1,12 +1,66 @@
 {
   "myCarts": [
-  { "id": 1, "title": "Həqiqilik", "url": "/img1.png" },
-  { "id": 2, "title": "Resim 2", "url": "/img2.png" },
-  { "id": 3, "title": "Resim 3", "url": "/img3.png" },
-  { "id": 4, "title": "Resim 1", "url": "/img4.png" },
-  { "id": 5, "title": "Resim 2", "url": "/img5.png" },
-  { "id": 6, "title": "Resim 3", "url": "/img6.png" },
-  { "id": 4, "title": "Resim 1", "url": "/img7.png" },
-  { "id": 5, "title": "Resim 2", "url": "/img8.png" }
+
+  { 
+    "id": 1, 
+    "title": "Həqiqilik",
+     "url": "/img1.png" ,
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+    },
+
+  { 
+    "id": 2, 
+    "title": "Mürəkkəblik",
+     "url": "/img2.png",
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+    
+    },
+
+  { 
+    "id": 3,
+     "title": "Münasib Ödəniş",
+      "url": "/img3.png",
+      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+    
+    },
+
+  { 
+    "id": 4,
+     "title": "Geniş Çeşid", 
+     "url": "/img4.png",
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+    
+    },
+
+  { 
+    "id": 5, 
+    "title": "Global Çatdırılma", 
+    "url": "/img5.png",
+    "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+   },
+
+  { 
+    "id": 6, 
+  "title": "Keyfiyyət Zəmanəti",
+   "url": "/img6.png",
+   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+  
+  },
+
+  { 
+    "id": 7, 
+  "title": "İstifadə rahatlığı",
+   "url": "/img7.png",
+   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+
+  },
+
+  { 
+    "id": 8,
+     "title": "Ətraf Təmizliyi",
+      "url": "/img8.png",
+      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+
+     }
 ]
 }
