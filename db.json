@@ -5,14 +5,17 @@
     "id": 1, 
     "title": "Həqiqilik",
      "url": "/img1.png" ,
-     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+     "subtitle":"Daha Çox"
+
     },
 
   { 
     "id": 2, 
     "title": "Mürəkkəblik",
      "url": "/img2.png",
-     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+     "subtitle":"Daha Çox" 
     
     },
 
@@ -20,7 +23,8 @@
     "id": 3,
      "title": "Münasib Ödəniş",
       "url": "/img3.png",
-      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+      "subtitle":"Daha Çox" 
     
     },
 
@@ -28,7 +32,8 @@
     "id": 4,
      "title": "Geniş Çeşid", 
      "url": "/img4.png",
-     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+     "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+     "subtitle":"Daha Çox" 
     
     },
 
@@ -36,14 +41,17 @@
     "id": 5, 
     "title": "Global Çatdırılma", 
     "url": "/img5.png",
-    "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+    "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+    "subtitle":"Daha Çox"
+
    },
 
   { 
     "id": 6, 
   "title": "Keyfiyyət Zəmanəti",
    "url": "/img6.png",
-   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+   "subtitle":"Daha Çox" 
   
   },
 
@@ -51,7 +59,8 @@
     "id": 7, 
   "title": "İstifadə rahatlığı",
    "url": "/img7.png",
-   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir." 
+   "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+   "subtitle":"Daha Çox" 
 
   },
 
@@ -59,7 +68,8 @@
     "id": 8,
      "title": "Ətraf Təmizliyi",
       "url": "/img8.png",
-      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir."
+      "content":"Mis distillə avadanlığı qədim zamanlardan efir yağlarının çıxarılması üçün istifadə edilmişdir.",
+      "subtitle":"Daha Çox"
 
      }
 ]
