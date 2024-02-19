@@ -9,7 +9,7 @@ import Banner from './Components/Main/Banner';
 import Recomend from './Components/Main/Recomended';
 import Sale from './Components/Main/Sale';
 import Comments from "./Components/Main/Comments"
-import Informations from './Components/Footer/Informations';
+import Informations from './Components/Informations';
 
 
 
@@ -17,6 +17,7 @@ import Informations from './Components/Footer/Informations';
 export default function Home() {
     return (
     <div>
+      
    <div className="bg-[url('../public/BG.png')] flex flex-col transition-all h-full w-full bg-contain bg-no-repeat  select-none relative max-xl:bg-cover max-sm:bg-center ">
    <Navbar/>
     <Navbar2/>

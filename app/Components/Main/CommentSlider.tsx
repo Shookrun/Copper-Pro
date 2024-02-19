@@ -49,7 +49,6 @@ const Slider: React.FC = () => {
     return (
       <div className="swiper_slider  ">
         <Swiper
-          // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={20}
           slidesPerView={1}
@@ -73,6 +72,7 @@ const Slider: React.FC = () => {
           {date}
         </Typography>
       </div>
+      
       
     ))}
    
