@@ -9,7 +9,8 @@ import Banner from './Components/Main/Banner';
 import Recomend from './Components/Main/Recomended';
 import Sale from './Components/Main/Sale';
 import Comments from "./Components/Main/Comments"
-import Informations from './Components/Informations';
+import Informations from './Components/Main/Informations';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
     <Sale/>
     <Comments/>
     <Informations/>
+    <Footer/>
     </div>
   );
 }
