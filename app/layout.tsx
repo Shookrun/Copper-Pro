@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { headers } from "next/headers";
 import "./globals.css";
+import Navbar from "./Components/Header/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,9 +17,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const headersList = headers();
+  const header_url = headersList.get("x-url") || "";
+  const pathname = headersList.get("x-pathname");
+  const origin_url = headersList.get("x-origin");
+  console.log(pathname);
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} scroll-smooth`}>
+        {pathname !== "/" && <Navbar />}
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

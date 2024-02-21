@@ -53,7 +53,7 @@ const SectionOne: React.FC = () => {
 
   return (
     <div>
-      <Container>
+      <Container maxWidth="lg">
         <Stack className="items-center h-[100%]">
           <Typography variant="h4" className="text">
             BİZİM MƏHSULLAR

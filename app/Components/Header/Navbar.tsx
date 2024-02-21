@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
 
   let navBar: string[] = ["Kataloq","Yeniliklər","Çatdırılma","Haqqımızda","Əlaqə"];
   return (
-    <div>
+    <div id='nav'>
       <Container maxWidth="lg" className='relative flex flex-col gap-4 max-sm:w-[400px]'>
 
         <Stack direction="row" className="w-[100%] justify-between">

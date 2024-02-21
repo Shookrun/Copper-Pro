@@ -2,61 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-@layer utilities{
-    .gradient-custom{
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0, 0, 0, 0.546) 100%);
-        mix-blend-mode: multiply;
-    }
-    .gradient-custom-hover{
-        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(221, 148, 80, 0.546) 100%);
-        mix-blend-mode: multiply;
-    }
+@layer utilities {
+  .gradient-custom {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(0, 0, 0, 0.546) 100%
+    );
+    mix-blend-mode: multiply;
+  }
+  .gradient-custom-hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(221, 148, 80, 0.546) 100%
+    );
+    mix-blend-mode: multiply;
+  }
 }
-
 
 /* Genel olarak kaydırma çubukları */
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.594);
-	background-color: #2F4539;
-
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.594);
+  background-color: #2f4539;
 }
 
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar-thumb
-{
-    border-radius: 10px;
-	background-color: #E4A16F;	
-	background-image: -webkit-linear-gradient(45deg,
-	                                          rgba(73, 52, 44,.2) 25%,
-											  transparent 25%,
-											  transparent 50%,
-											  rgba(73, 52, 44,.2) 50%,
-											  rgba(73, 52, 44,.2) 75%,
-											  transparent 75%,
-											  transparent)
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #e4a16f;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(73, 52, 44, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(73, 52, 44, 0.2) 50%,
+    rgba(73, 52, 44, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 
-::-webkit-scrollbar-thumb:hover{
-    background-image: -webkit-linear-gradient(45deg,
-	                                          rgba(45, 34, 30, 0.589) 25%,
-											  transparent 25%,
-											  transparent 50%,
-											  rgba(30, 22, 18, 0.427) 50%,
-											  rgba(28, 20, 17, 0.429) 75%,
-											  transparent 75%,
-											  transparent)
+::-webkit-scrollbar-thumb:hover {
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(45, 34, 30, 0.589) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(30, 22, 18, 0.427) 50%,
+    rgba(28, 20, 17, 0.429) 75%,
+    transparent 75%,
+    transparent
+  );
 }
 
-.gbox{
-	background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
-
+.gbox {
+  background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
 }
-
