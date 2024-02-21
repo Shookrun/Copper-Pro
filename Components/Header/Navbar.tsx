@@ -9,6 +9,7 @@ import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { Stack, Typography } from '@mui/material';
 import Image from 'next/image';
 
+
 const Navbar: React.FC = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const toggleModal = () => {
@@ -31,7 +32,7 @@ const Navbar: React.FC = () => {
             />
             {navBar.map((item, index) => (
               <Typography key={index} variant="body2" className="cursor-pointer mont max-sm:hidden">
-                {item}
+               {item}
               </Typography>
             ))}
           </Stack>
