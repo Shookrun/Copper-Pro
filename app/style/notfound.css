@@ -34,8 +34,9 @@ section::before
   width: 100%;
   height: 100%;
   background: linear-gradient(#000,red,#000);
-  animation: animate 5s linear infinite;
+  animation: animate 2s linear infinite;
 }
+
 @keyframes animate 
 {
   0%
