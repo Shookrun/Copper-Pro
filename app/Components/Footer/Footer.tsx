@@ -6,8 +6,8 @@ export default function Footer () {
    
 return (
     <div className="bg-[url('../public/Footer.png')]">
-
-       <Container maxWidth="lg" className=" flex justify-between">
+   
+       <Container  maxWidth="lg" className=" flex justify-between">
        <Stack className="w-[17%]">
         <Image src={img} alt="logo" width={140} height={140}/>
         <Typography >
@@ -19,7 +19,7 @@ Bütün hüquqlar qorunur
         </Typography>
         </Stack>
         <Stack>
-
+          
         <ListFirst/>
         </Stack>
        </Container>
