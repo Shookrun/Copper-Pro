@@ -143,7 +143,7 @@ section .signin .content .form .inputBox i
 }
 .signin .content .form .links a:nth-child(2)
 {
-  color: red;
+  color: rgba(255, 0, 0, 0.352);
   font-weight: 600;
 }
 
