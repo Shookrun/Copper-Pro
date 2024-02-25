@@ -79,9 +79,11 @@ padding-left:60px;
 
 
 .swiper-pagination-bullet {
-background: linear-gradient(#5E3928,#E4A16F);
-border-radius: 1px;
-}
+    background: linear-gradient(#5E3928,#E4A16F);
+    border-radius: 1px;
+    background-color: red;
+    width: 300px;
+    }
 
 .swiper-pagination{
     margin-top:90px;

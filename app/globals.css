@@ -63,3 +63,10 @@
 .gbox {
   background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
 }
+.swiper-pagination-bullet {
+  background: linear-gradient(#5E3928,#E4A16F) !important;
+  border-radius: 1px !important;
+  background-color: red !important;
+  margin-top: 30px !important;
+  width: 7px !important;
+  }
