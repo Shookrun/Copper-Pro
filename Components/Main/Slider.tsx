@@ -21,9 +21,8 @@ const Slider: React.FC = () => {
        spaceBetween={10}
        slidesPerView={3}
        navigation
+      //  loop={true}
        pagination={{ clickable: true }}
-       onSwiper={(swiper) => console.log(swiper)}
-       onSlideChange={() => console.log("slide change")}
        className="w-6/12 "
      >
        <SwiperSlide className=" h-48">

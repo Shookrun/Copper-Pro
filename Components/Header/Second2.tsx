@@ -22,9 +22,12 @@ const Slider: React.FC = () => {
        modules={[Navigation, Pagination, Scrollbar, A11y]}
        spaceBetween={10}
        slidesPerView={1}
+     
        loop={true}
        navigation
-       pagination={{ clickable: true }}
+       pagination={{ 
+        
+        clickable: true }}
        className="w-[100vw] "
      >
        
@@ -86,7 +89,34 @@ const Slider: React.FC = () => {
       
        </SwiperSlide>
        
-  
+       <SwiperSlide className="h-60 my-28  w-[800px]">
+       <Stack className=" w-[100vw] ">
+        <Container maxWidth="lg" className="flex flex-col gap-4">
+          <Typography
+            variant="h1"
+            className="text text-white transition-all w-[45%] caret-slate-50 max-sm:text-[30px]"
+          >
+            ƏN YAXŞISI
+          </Typography>
+          <div className="btt w-[35%] transition-all h-0.5 max-sm:w-[47%]"></div>
+          <Typography
+            variant="h4"
+            className="mont text-white w-[50%] transition-all max-sm:text-[20px]"
+          >
+            Efir yağları üçün distillə
+          </Typography>
+          <Stack direction="row" className="text-white w-[18%] justify-between max-sm:flex-col">
+            <Typography variant="h6" className="max-sm:text-2xl">Qiymət</Typography>
+            <Typography variant="h6" className="w-20">90 AZN</Typography>
+          </Stack>
+          <Stack className="text-white cursor-pointer w-[18%] text-center h-10 items-center justify-center transition-all bg-gradient-to-r from-gradient1 to-gradient2 hover:scale-95 max-sm:w-40">
+            <Typography variant="subtitle1">Al</Typography>
+          </Stack>
+          
+        </Container>
+      </Stack>
+      
+       </SwiperSlide>
  
       
      </Swiper>

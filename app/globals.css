@@ -63,10 +63,49 @@
 .gbox {
   background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet-active {
   background: linear-gradient(#5E3928,#E4A16F) !important;
   border-radius: 1px !important;
   background-color: red !important;
-  margin-top: 30px !important;
+  margin-top: 50px !important;
   width: 7px !important;
+  
+  }
+  .swiper-pagination-bullet {
+    border-radius: 1px !important;
+    background-color: white !important;
+    margin-top: 50px !important;
+    width: 7px !important;
+    
+    }
+
+  .swiper-pagination{
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 13%;
+ 
+  }
+
+ 
+  .swiper-button-prev::after{
+    background-color: transparent !important;
+    border:1px solid white !important;
+    color:white !important;
+    height: 25px !important;
+    width: 50px !important;
+    font-size: 17px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next::after{
+    background-color: transparent !important;
+    border:1px solid white !important;
+    color:white !important;
+    height: 25px !important;
+    width: 50px !important;
+    font-size: 17px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
