@@ -54,18 +54,18 @@ const SectionOne: React.FC = () => {
   return (
     <div>
       <Container maxWidth="lg">
-        <Stack className="items-center h-[100%]">
+        <Stack className="items-center my-10 h-[100%]">
           <Typography variant="h4" className="text">
             BİZİM MƏHSULLAR
           </Typography>
           <Stack
             direction="row"
-            className="cards w-full gap-5 h-[900px] items-center bg-white"
+            className="flex my-10 justify-evenly flex-wrap  w-full gap-5 h-[100%] items-center  "
           >
             {card.map(({ id, title, img }) => (
               <Stack
                 key={id}
-                className="w-[80%] hover:scale-105 cursor-pointer group h-[80%] relative border transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
+                className="w-[30%] hover:scale-105 cursor-pointer group h-[400px] relative border transition-all duration-100 hover:rounded-lg overflow-hidden group ease-in items-center py-2 bg-cover bg-no-repeat max-sm: "
                 // sx={{backgroundImage:`url(${img})`}}
               >
                 <Image alt="Image" src={img} fill className="z-[5]" />
