@@ -14,19 +14,20 @@ import Image from "next/image";
 
 const Slider: React.FC = () => {
   return (
-    <div className="swiper_slider">
+    <div className="sectionTwo slider ">
       <Swiper
        // install Swiper modules
        modules={[Navigation, Pagination, Scrollbar, A11y]}
        spaceBetween={10}
        slidesPerView={3}
        navigation
+       effect="fade"
       //  loop={true}
        pagination={{ clickable: true }}
-       className="w-6/12 "
+       className="w-8/12 "
      >
-       <SwiperSlide className=" h-48">
-        <div className="h-80 w-full flex flex-col justify-between">
+       <SwiperSlide className=" h-28 ">
+        <div className="h-80 w-full flex flex-col mb-10 justify-between">
         <Image
            src="/card1.png"
            alt="Image"

@@ -4,9 +4,9 @@ import Slider from "./Slider";
 
 const SectionTwo: React.FC = () => {
   return (
-    <div>
-      <Stack className="justify-center bg-zinc-100 py-10">
-        <Stack direction="row" className="justify-center">
+    <div className="my-8 py-8 relative">
+      <Stack className="justify-center bg-zinc-100 py-10 relative">
+        <Stack direction="row" className="justify-center my-4">
           <Typography variant="h4" className="text">
             Ən Çox Satılan
           </Typography>

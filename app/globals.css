@@ -66,46 +66,108 @@
 .swiper-pagination-bullet-active {
   background: linear-gradient(#5E3928,#E4A16F) !important;
   border-radius: 1px !important;
-  background-color: red !important;
-  margin-top: 50px !important;
+  /* background-color: red !important; */
+  /* margin-top: 50px !important; */
   width: 7px !important;
   
   }
   .swiper-pagination-bullet {
     border-radius: 1px !important;
-    background-color: white !important;
-    margin-top: 50px !important;
+    /* background-color: white !important; */
+    /* margin-top: 50px !important; */
     width: 7px !important;
     
     }
 
-  .swiper-pagination{
-    display:flex;
-    justify-content: flex-start;
-    margin-left: 13%;
- 
-  }
 
+
+  /* Header Swiper Start */
+ .headerSwiper .swiper-button-prev::after{
+  background-color: transparent;
+  color:white;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+
+ }
+ .headerSwiper .swiper-button-next::after{
+  background-color: transparent;
+  color:white;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+
+ }
+
+ .headerSwiper .swiper-pagination-bullet {
+  border-radius: 1px !important;
+  /* background-color: white !important; */
+  margin-top: 0px !important;
+  width: 7px !important;
+  
+  }
+ .headerSwiper .swiper-pagination{
+  /* background-color: red; */
+display: flex;
+  margin-left: 190px;
+
+  height: 50px;
+ }
  
-  .swiper-button-prev::after{
-    background-color: transparent !important;
-    border:1px solid white !important;
-    color:white !important;
-    height: 25px !important;
-    width: 50px !important;
-    font-size: 17px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .swiper-button-next::after{
-    background-color: transparent !important;
-    border:1px solid white !important;
-    color:white !important;
-    height: 25px !important;
-    width: 50px !important;
-    font-size: 17px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ /* Header Swiper End */
+
+
+
+ /* SectionTwo Start */
+ .sectionTwo .swiper-button-prev::after{
+  background-color: transparent;
+  color:black;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+
+ }
+
+ .sectionTwo .swiper-button-next::after{
+  background-color: transparent;
+  color:black;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+ }
+
+ /* Section Two End */
+
+
+ /* slider start */
+ .slider {
+  /* background-color: red; */
+ }
+
+ .slider .swiper-button-prev{
+  position: absolute !important;
+  left:0px !important;
+  /* background-color: red; */
+ }
+
+ .sectionTwo .swiper{
+  position: static !important;
+ }
+
+ /* slider end */

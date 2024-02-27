@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Container, Stack, Typography } from "@mui/material";
 import React from "react";
 import First from "./First"
+// import "./style/style.css"
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "@/app/style/style.css"
 import "swiper/css";
@@ -16,7 +17,7 @@ import Image from "next/image";
 
 const Slider: React.FC = () => {
   return (
-    <div className="swiper_slider flex justify-start ">
+    <div className="headerSwiper flex justify-start ">
       <Swiper
        // install Swiper modules
        modules={[Navigation, Pagination, Scrollbar, A11y]}

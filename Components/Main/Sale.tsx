@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const Sale: React.FC = () => {
   return (
-    <div>
+    <div className="relative">
       <Stack className="justify-center bg-zinc-100 py-10">
         <Stack direction="row" className="justify-center">
           <Typography variant="h4" className="text">

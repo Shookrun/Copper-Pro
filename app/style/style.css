@@ -43,9 +43,14 @@ padding-left:60px;
     position: static;
 }
 
-.swiper_slider{ 
-    position: relative;
+
+.sectionTwo{
+    /* background-color: red; */
+    display:flex;
+    height: 60vh;
+    user-select: none;
 }
+
 .swiper-button-next::after{
     background-color: white;
     color:black;
