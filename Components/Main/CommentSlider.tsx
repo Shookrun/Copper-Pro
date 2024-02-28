@@ -47,12 +47,13 @@ const Slider: React.FC = () => {
     ];
 
     return (
-      <div className="swiper_slider  ">
+      <div className="swiper_slider relative  ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={20}
           slidesPerView={1}
           navigation
+          loop={true}
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}

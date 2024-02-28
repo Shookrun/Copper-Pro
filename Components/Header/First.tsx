@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
               <div className="bg-white w-[30px] h-[50px] py-1 flex items-end justify-center max-sm:hidden ">
                 <FavoriteBorderIcon className="w-5" />
               </div>
-              <div className="bg-white w-[30px] h-[50px] py-1 flex items-end justify-center  ">
+              <div className="bg-white w-[30px] h-[50px] py-1 flex items-end justify-center max-sm:ml-28  ">
                 <PersonIcon className="w-5" />
               </div>
               <div className="bg-white w-[30px] h-[50px] py-1 flex items-end justify-center  ">

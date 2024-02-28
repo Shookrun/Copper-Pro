@@ -30,6 +30,7 @@
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #f5f5f5;
+
 }
 
 ::-webkit-scrollbar-thumb {
@@ -45,6 +46,8 @@
     transparent 75%,
     transparent
   );
+
+ 
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -62,6 +65,8 @@
 
 .gbox {
   background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+  
+
 }
 .swiper-pagination-bullet-active {
   background: linear-gradient(#5E3928,#E4A16F) !important;
@@ -156,9 +161,7 @@ display: flex;
 
 
  /* slider start */
- .slider {
-  /* background-color: red; */
- }
+
 
  .slider .swiper-button-prev{
   position: absolute !important;
@@ -171,3 +174,46 @@ display: flex;
  }
 
  /* slider end */
+
+
+ /* Comment Swiper start */
+  
+ 
+ .swiper_slider .swiper-button-prev::after{
+  background-color: transparent;
+  color:black;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+
+   
+ }
+
+ .swiper_slider .swiper-button-next::after{
+  background-color: transparent;
+  color:black;
+  padding:10px;
+ height: 30px;
+ padding:10px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+  font-size:16px;
+ }
+
+ .swiper_slider .swiper-button-prev{
+  position: absolute !important;
+  left:0px !important;
+  /* background-color: red; */
+ }
+
+ .swiper_slider .swiper{
+  position: static !important;
+ }
+
+
+ /* Comment Swiper end */
