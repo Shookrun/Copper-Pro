@@ -30,12 +30,14 @@ const Navbar: React.FC = () => {
               alt="logo"
               className="cursor-pointer transition-all hover:scale-110 max-sm:h-[50%]"
             />
-            {navBar.map((item, index) => (
-              <Link key={index}  href={`/${item === "Əlaqə" ? "About" : "" || item}`}><Typography  variant="body2" className=" group transition-all duration-200  bg-clip-text block  cursor-pointer mont max-sm:hidden hover:bg-gradient-to-r from-yellow-700 to-gradient2 hover:text-transparent hover:underline">
-              {item}
-             </Typography></Link>
-              
-            ))}
+           {navBar.map((item, index) => (
+  <Link key={index} href={`/${item === "Kataloq" ? "Catalog" : item === "Yeniliklər" ? "News" : item === "Çatdırılma" ? "Delivery" : item === "Haqqımızda" ? "About" : item === "Əlaqə" ? "Contact" : ""}`}>
+    <Typography variant="body2" className="group transition-all duration-200 bg-clip-text block cursor-pointer mont max-sm:hidden hover:bg-gradient-to-r from-yellow-700 to-gradient2 hover:text-transparent hover:underline">
+      {item}
+    </Typography>
+  </Link>
+))}
+
             <span className='bg-left-bottom bg-gradient-to-r from-blue-500 to-blue-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out'></span>
           </Stack>
 
