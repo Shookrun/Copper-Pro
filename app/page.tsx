@@ -1,10 +1,9 @@
 import React from "react";
 import "./style/style.css";
-
 import Banner from "@/Components/Home/Main/Banner";
 import Recomend from "@/Components/Home/Main/Recomended";
 import Sale from "@/Components/Home/Main/Sale";
-import Comments from "@/Components/Home/Main/Comments";
+
 import Informations from "@/Components/Home/Main/Informations";
 import Footer from "@/Components/Home/Footer/Footer";
 import Header from "@/Components/Home/Header/Header";
@@ -15,13 +14,6 @@ export default function Home() {
     <div className="scroll-smooth">
         <Header />
       <Main/>
-    
-     
-      <Banner />
-      <Recomend />
-      <Sale />
-      <Comments />
-      <Informations />
     </div>
   );
 }
