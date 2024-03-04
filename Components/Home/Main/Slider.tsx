@@ -17,6 +17,7 @@ const Slider: React.FC = () => {
     <div className="sectionTwo slider ">
       <Swiper
        // install Swiper modules
+       autoplay={true}
        modules={[Navigation, Pagination, Scrollbar, A11y]}
        spaceBetween={10}
        slidesPerView={3}
