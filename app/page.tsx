@@ -9,6 +9,7 @@ export default function Home() {
     <div className="scroll-smooth">
       <Header/>
        <Main/>
+       
     </div>
   );
 }
