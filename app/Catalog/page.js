@@ -1,8 +1,11 @@
+import Navbar from "@/Components/Catalog/Navbar";
+import Section1 from "@/Components/Catalog/Section1";
+
 function Catalog() {
     return (
       <div>
-        <h1>Catalog Page</h1>
-        <p>This is the Catalog Page content.</p>
+        <Navbar/>
+        <Section1/>
       </div>
     );
   }

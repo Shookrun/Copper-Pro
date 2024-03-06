@@ -9,6 +9,7 @@ import Comments from "@/Components/Home/Main/Comments";
 export default function Main () {
 return (
     <div> 
+     
         <SectionOne/>
         <SectionTwo/>
         <SectionThird/>

@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} scroll-smooth`}>
-        {pathname !== "/" && <Header />}
+        {pathname == "/" && <Header />}
         {children}
         <Footer />
       </body>
