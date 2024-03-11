@@ -1,9 +1,10 @@
-import { Typography } from "@mui/material"
-
+import { Container, Typography } from "@mui/material"
+import CardHeader from "./CardHeader"
 
 const Section1 = () => {
   return (
 <div>
+<Container maxWidth="lg">
 <div>
 <div className="flex">
 <Typography className="mont">
@@ -17,6 +18,8 @@ const Section1 = () => {
     Kataloq   
 </Typography>
 </div>
+<CardHeader/>
+</Container>
 </div>
   )
 }

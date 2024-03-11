@@ -1,8 +1,11 @@
+import Main from "@/Components/About/Main";
+import Navbar from "@/Components/Catalog/Navbar";
+
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>This is the about page content.</p>
+     <Navbar/>
+     <Main/>
     </div>
   );
 }
