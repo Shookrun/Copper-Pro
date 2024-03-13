@@ -1,11 +1,11 @@
 import { Container, Typography } from "@mui/material"
 import Image from "next/image"
 import img from "@/public/Signature.png"
-
+import obj from "@/public/objects.svg"
 const SectionOne = () => {
   return (
-    <div className="bg-neutral-100 h-[59vh]">
-      <Container>
+    <div className="bg-neutral-100 flex  p-10">
+      <Container className=" flex">
       <div className="w-[50%] h-[40vh] justify-evenly pt-32 gap-10 flex flex-col ">
         {/* Pages Start */}
         <div className="flex">
@@ -32,7 +32,7 @@ const SectionOne = () => {
         {/* gradient end */}
 
         {/* Signature start */}
-        <div className="flex  w-48 gap-9">
+        <div className="flex  w-48 gap-9 ">
           <Typography variant="h6" className="font-bold mont w-20 bg-clip-text text-transparent  bg-gradient-to-r  from-gradient1 to-gradient2">
             Ivan Ivanov
           </Typography>
@@ -44,6 +44,15 @@ const SectionOne = () => {
           />
         </div>
         {/* Signature End */}
+       </div>
+       <div className=" w-[50%]  flex justify-center items-center ">
+        <Image
+        src={obj}
+        width={120}
+        height={120}
+        alt="Objects"
+        className="w-[100%] h-[100%] object-cover"
+        />
        </div>
       </Container>
     </div>
