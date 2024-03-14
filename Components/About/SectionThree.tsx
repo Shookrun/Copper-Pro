@@ -9,49 +9,35 @@ const SectionThree = () => {
         </Typography>
       </div>
 
-      <div className="bg-red flex flex-col w-[60vw]">
-        <div className="bg-blue-500 flex justify-center">
+      <div className=" flex flex-col py-6 pl-20 w-[65vw]">
+        <div className=" flex justify-center">
           <Typography variant="h4" className="text text-white">
             BİZİM TARİXİMİZ
           </Typography>
-          </div>
+        </div>
 
-          <div className="flex">
-            <Typography>
-              Qalet tutaşmıyın aya yağlaşoy covid mirəti mığı tutaşmıyın qağa
-              dınqı, dayna kiri səni dığlatdın qalet çırtımına yiyə dursan?
-              suruxvat qayır, sülöymən oynaxlanma səni ciji oynaxlanma
-              xışdıyaram dınqı. Dana qayır mamoğlu siyəndər pırpız baş öy a
-              bimürvət bıy əzizin ölsün sülöymən təntitmə qarantin,
-              anarıdan-bəri eşiyə çıxma sortuxla eşiy a qıvlasız tutaşmıyın
-              təntitmə göyüz nağarersan?, murtta döyğa çırtımına yiyə dursan?
-              eşiy dığlatdın dayna varıf şöytəli dayna. Göyüz qredit şöytəli
-              suruxvat çırtımına yiyə dursan? bıy əzizin ölsün bıy dərdin alem
-              anarıdan-bəri ağrın alem haay a bimürvət, a qıvlasız xışdıyaram
-              öydə otur çırtımına yiyə dursan? beyjə covid mirəti ağrın alem
-              haay ağrın alem. Sumsux şöytəli mamoğlu tova xışdıyaram bıy əzizin
-              ölsün mığı öydə otur tova, səni göyüz həncərsən ağrın alem mamoğlu
-              anarıdan-bəri qağa qalet covid mirəti, qağa sortuxla varıf
-              anarıdan-bəri həncərsən şöytəli yağlaşoy.
-            </Typography>
+        <div className="flex">
+          <Typography className="text-white mont font-light tracking-wider leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
+            inventore veniam alias adipisci voluptates! Ut adipisci eveniet sed
+            saepe voluptatum enim voluptatibus amet error, officiis perferendis
+            quod perspiciatis ab. Recusandae neque explicabo nemo perferendis
+            molestias facere, a quo tempore, vitae nihil unde iste quam
+            praesentium nisi fugiat odit totam aperiam pariatur qui iusto velit
+            aut autem itaque earum! Commodi? Molestiae vitae fugit officia nisi
+            quasi quo commodi error modi natus? 
+          </Typography>
 
-            <Typography>
-              Qalet tutaşmıyın aya yağlaşoy covid mirəti mığı tutaşmıyın qağa
-              dınqı, dayna kiri səni dığlatdın qalet çırtımına yiyə dursan?
-              suruxvat qayır, sülöymən oynaxlanma səni ciji oynaxlanma
-              xışdıyaram dınqı. Dana qayır mamoğlu siyəndər pırpız baş öy a
-              bimürvət bıy əzizin ölsün sülöymən təntitmə qarantin,
-              anarıdan-bəri eşiyə çıxma sortuxla eşiy a qıvlasız tutaşmıyın
-              təntitmə göyüz nağarersan?, murtta döyğa çırtımına yiyə dursan?
-              eşiy dığlatdın dayna varıf şöytəli dayna. Göyüz qredit şöytəli
-              suruxvat çırtımına yiyə dursan? bıy əzizin ölsün bıy dərdin alem
-              anarıdan-bəri ağrın alem haay a bimürvət, a qıvlasız xışdıyaram
-              öydə otur çırtımına yiyə dursan? beyjə covid mirəti ağrın alem
-              haay ağrın alem. Sumsux şöytəli mamoğlu tova xışdıyaram bıy əzizin
-              ölsün mığı öydə otur tova, səni göyüz həncərsən ağrın alem mamoğlu
-              anarıdan-bəri qağa qalet covid mirəti, qağa sortuxla varıf
-              anarıdan-bəri həncərsən şöytəli yağlaşoy.
-            </Typography>
+          <Typography className="text-white mont font-light leading-7">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa optio
+            inventore veniam alias adipisci voluptates! Ut adipisci eveniet sed
+            saepe voluptatum enim voluptatibus amet error, officiis perferendis
+            quod perspiciatis ab. Recusandae neque explicabo nemo perferendis
+            molestias facere, a quo tempore, vitae nihil unde iste quam
+            praesentium nisi fugiat odit totam aperiam pariatur qui iusto velit
+            aut autem itaque earum! Commodi? Molestiae vitae fugit officia nisi
+            quasi quo commodi error modi natus? 
+          </Typography>
         </div>
       </div>
     </div>
