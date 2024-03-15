@@ -1,6 +1,6 @@
-import Navbar from "@/Components/Catalog/Navbar";
+import Navbar from "@/Components/Catalog/CatalogNavbar";
 
-import Section1 from "@/Components/Catalog/Section1";
+import Section1 from "@/Components/Catalog/CatalogSectionOne";
 
 function page() {
     return (

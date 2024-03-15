@@ -1,5 +1,5 @@
 import { Container, Typography } from "@mui/material";
-import CardHeader from "./CardHeader";
+import CardHeader from "./CatalogCardHeader";
 
 const Section1 = () => {
   return (
