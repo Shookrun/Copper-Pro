@@ -1,7 +1,7 @@
 import Image from "next/image";
 import img from "@/public/Logo.png";
 import { Container, Stack, Typography } from "@mui/material";
-import ListFirst from "./Firstlist";
+import ListFirst from "./HomeFirstlist";
 import Link from "next/link";
 export default function Footer() {
   return (
