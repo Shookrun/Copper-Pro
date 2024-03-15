@@ -1,8 +1,8 @@
-import Main from "@/Components/About/Main";
+import Main from "@/Components/About/AboutMain";
 import SectionFour from "@/Components/About/AboutSectionFour";
 import SectionOne from "@/Components/About/AboutSectionOne";
-import SectionThree from "@/Components/About/SectionThree";
-import SectionTwo from "@/Components/About/SectionTwo";
+import SectionThree from "@/Components/About/AboutSectionThree";
+import SectionTwo from "@/Components/About/AboutSectionTwo";
 
 function page() {
   return (

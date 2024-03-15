@@ -1,6 +1,6 @@
 import SectionOne from "./AboutSectionOne"
-import SectionThree from "./SectionThree"
-import SectionTwo from "./SectionTwo"
+import SectionThree from "./AboutSectionThree"
+import SectionTwo from "./AboutSectionTwo"
 import SectionFour from "./AboutSectionFour"
 const Main = () => {
   return (
