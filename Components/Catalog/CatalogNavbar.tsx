@@ -17,11 +17,11 @@ const Navbar: React.FC = () => {
   };
 
   let navBar: any = [
-    { title: "Kataloq", to: "/Catalog" },
-    { title: "Yeniliklər", to: "/News" },
-    { title: "Çatdırılma", to: "/Delivery" },
-    { title: "Haqqımızda", to: "/About" },
-    { title: "Əlaqə", to: "/Contact" },
+    { id: 1, title: "Kataloq", href: "/catalog".toLowerCase() },
+    { id: 2, title: "Yeniliklər", href: "/news".toLowerCase() },
+    { id: 3, title: "Çatdırılma", href: "/delivery".toLowerCase() },
+    { id: 4, title: "Haqqımızda", href: "/about".toLowerCase() },
+    { id: 5, title: "Əlaqə", href: "/contact".toLowerCase() },
   ];
   return (
     <div id="nav" className="bg-[url('../public/Footer.png')] h-28 flex">
@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
             direction="row"
             className="items-end justify-between  transition-all text-white mx-3 gap-3 h-20  w-[50%] "
           >
-            <Link href={"/"}>
+           <Link href={'/'} className="min-w-[100px] max-w-[150px]">
               <Image
                 src={logo}
                 width={120}
@@ -43,8 +43,10 @@ const Navbar: React.FC = () => {
                 className="cursor-pointer transition-all hover:scale-110 max-sm:h-[50%]"
               />
             </Link>
-            {navBar.map(({ to, title }: { to: any; title: any }) => (
-              <Link key={to} href={to}>
+        
+
+            {navBar.map(({ id, title, href }: any) => (
+              <Link key={id} href={href.toLowerCase()}>
                 <Typography
                   variant="body2"
                   className="group transition-all duration-200 bg-clip-text block cursor-pointer mont max-sm:hidden hover:bg-gradient-to-r from-yellow-700 to-gradient2 hover:text-transparent hover:underline"

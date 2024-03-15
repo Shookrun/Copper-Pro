@@ -6,12 +6,12 @@ import SectionTwo from "@/Components/About/AboutSectionTwo";
 
 function page() {
   return (
-    <div>
+    <>
       <SectionOne />
       <SectionTwo />
       <SectionThree />
       <SectionFour />
-    </div>
+    </>
   );
 }
 

@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Components/Main/Informations.tsx", "app/(site)/About/page.tsx", "app/(site)/Catalog/pageapp/(site)/Contact/page.jspageapp/(site)/Delivery/page.jspage.js", "app/(site)/News/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/Components/Main/Informations.tsx", "app/(site)/about/page.tsx", "app/(site)/catalog/pageapp/(site)/Contact/page.jspageapp/(site)/Delivery/page.jspage.js", "app/(site)/news/page.tsx"],
   "exclude": ["node_modules"]
 }
