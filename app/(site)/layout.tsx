@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import "../globals.css";
 
 import Footer from "@/Components/Home/Footer/Footer";
-import Header from "@/Components/Home/Header/Header";
+import Header from "@/Components/Home/Header/HomeHeader";
 import Navbar from "@/Components/Catalog/CatalogNavbar";
 
 const inter = Inter({ subsets: ["latin"] });

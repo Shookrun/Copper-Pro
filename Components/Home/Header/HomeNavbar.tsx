@@ -1,4 +1,4 @@
-import Second from "./Second"
+import Second from "./HomeSecond"
 
 export default function Navbar () {
     return (
