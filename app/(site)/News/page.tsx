@@ -1,10 +1,10 @@
-function News() {
+function page() {
     return (
       <div>
-        <h1>News Page</h1>
+        <h1>page Page</h1>
         <p>This is the Catalog Page content.</p>
       </div>
     );
   }
   
-  export default News;
+  export default page;

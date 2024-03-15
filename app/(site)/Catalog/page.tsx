@@ -2,14 +2,13 @@ import Navbar from "@/Components/Catalog/Navbar";
 
 import Section1 from "@/Components/Catalog/Section1";
 
-function Catalog() {
+function page() {
     return (
       <div>
-        <Navbar/>
         <Section1/>
 
       </div>
     );
   }
   
-  export default Catalog;
+  export default page;

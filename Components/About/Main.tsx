@@ -5,10 +5,7 @@ import SectionFour from "./SectionFour"
 const Main = () => {
   return (
     <div>
-        <SectionOne/>
-        <SectionTwo/>
-        <SectionThree/>
-        <SectionFour/>
+        
     </div>
   )
 }
