@@ -1,13 +1,13 @@
 import React from "react";
 import "./style/style.css";
-import Banner from "@/Components/Home/Main/Banner";
-import Informations from "@/Components/Home/Main/Informations";
-import Recomended from "@/Components/Home/Main/Recomended";
-import Sale from "@/Components/Home/Main/Sale";
-import SectionOne from "@/Components/Home/Main/SectionOne";
-import SectionThird from "@/Components/Home/Main/SectionThird";
-import SectionTwo from "@/Components/Home/Main/SectionTwo";
-import Comments from "@/Components/Home/Main/Comments";
+import Banner from "@/Components/Home/Main/HomeBanner";
+import Informations from "@/Components/Home/Main/HomeInformations";
+import Recomended from "@/Components/Home/Main/HomeRecomended";
+import Sale from "@/Components/Home/Main/HomeSale";
+import SectionOne from "@/Components/Home/Main/HomeSectionOne";
+import SectionThird from "@/Components/Home/Main/HomeSectionThird";
+import SectionTwo from "@/Components/Home/Main/HomeSectionTwo";
+import Comments from "@/Components/Home/Main/HomeComments";
 
 export default function page() {
   return (

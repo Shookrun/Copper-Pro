@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-import Slider from "./Slider";
+import Slider from "./HomeSlider";
 
 const SectionThird: React.FC = () => {
   return (

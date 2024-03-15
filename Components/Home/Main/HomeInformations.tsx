@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import Gallery from "./db"
+import Gallery from "./Homedb"
 const Informations: React.FC = () => {
     return (
         <div className="bg-[url('../public/information.png')] py-8">

@@ -1,19 +1,22 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
-import Slider from "./Slider";
+import CommentSlider from "./HomeCommentSlider";
 
 const Sale: React.FC = () => {
   return (
-    <div className="relative">
-      <Stack className="justify-center bg-zinc-100 py-10">
+    <div>
+      <Stack className="justify-center bg-white py-10">
         <Stack direction="row" className="justify-center">
           <Typography variant="h4" className="text">
-            Endİrİm
+            İşçi RƏylƏri
           </Typography>
         </Stack>
-        <Slider />
+        <CommentSlider />
         <div className="text-white flex cursor-pointer text-center h-10 items-center justify-center transition-all hover:scale-95">
-          <Typography className="bg-gradient-to-r from-gradient1 to-gradient2 p-2 px-10 rounded-sm">
+          <Typography
+            className="bg-gradient-to-r from-gradient1 to-gradient2 p-2 px-10 rounded-sm"
+            variant="subtitle1"
+          >
             Kataloqa keç
           </Typography>
         </div>

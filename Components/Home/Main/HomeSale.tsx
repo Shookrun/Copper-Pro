@@ -1,14 +1,14 @@
 import React from "react";
-import { Container, Stack, Typography } from "@mui/material";
-import Slider from "./Slider";
+import { Stack, Typography } from "@mui/material";
+import Slider from "./HomeSlider";
 
-const Recomended: React.FC = () => {
+const Sale: React.FC = () => {
   return (
     <div className="relative">
-      <Stack className="justify-center bg-white py-10">
+      <Stack className="justify-center bg-zinc-100 py-10">
         <Stack direction="row" className="justify-center">
           <Typography variant="h4" className="text">
-            TövsiyyƏ Olunan
+            Endİrİm
           </Typography>
         </Stack>
         <Slider />
@@ -22,4 +22,4 @@ const Recomended: React.FC = () => {
   );
 };
 
-export default Recomended;
+export default Sale;
