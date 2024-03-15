@@ -1,4 +1,4 @@
-import Main from "@/Components/About/AboutMain";
+import AboutSectionFive from "@/Components/About/AboutSectionFive";
 import SectionFour from "@/Components/About/AboutSectionFour";
 import SectionOne from "@/Components/About/AboutSectionOne";
 import SectionThree from "@/Components/About/AboutSectionThree";
@@ -11,6 +11,7 @@ function page() {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <AboutSectionFive/>
     </>
   );
 }
