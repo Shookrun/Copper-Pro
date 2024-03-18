@@ -11,12 +11,15 @@ type Product = {
 
 // Ürünler dizisinin türü
 const products: Product[] = [
-  { id: 1, name: 'Çini qulplu mis çaynik', img: "/card1.png" },
-  { id: 2, name: 'Çini qulplu mis çaynik', img: "/card2.png" },
-  { id: 3, name: 'Çini qulplu mis çaynik', img: "/card3.png" },
-  { id: 4, name: 'Çini qulplu mis çaynik', img: "/card4.png" },
-  { id: 5, name: 'Çini qulplu mis çaynik', img: "/card5.png" },
-  { id: 6, name: 'Çini qulplu mis çaynik', img: "/card6.png" },
+  { id: 1, name: 'Çini qulplu mis çaynik', img: "/card1.svg" },
+  { id: 2, name: 'Kitaylar', img: "/card2.svg" },
+  { id: 3, name: 'Çini Qızılgül Naxışlı Çaydan', img: "/card3.svg" },
+  { id: 4, name: 'Çini  Quaş Naxışlı Çaydan', img: "/card1.svg" },
+  { id: 5, name: 'Çin Naxışlı Mis Çaydan', img: "/card2.svg" },
+  { id: 6, name: 'Çini qulplu mis çaynik', img: "/card3.svg" },
+  { id: 7, name: 'Mokoko', img: "/card1.svg" },
+  { id: 8, name: 'Çini qulplu mis çaynik', img: "/card2.svg" },
+  { id: 9, name: 'Çini qulplu mis çaynik', img: "/card3.svg" },
 ];
 
 // Ana sayfa bileşeni
