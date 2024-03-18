@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Container, Stack, Typography } from "@mui/material";
 import React from "react";
-import First from "./HomeFirst"
+import First from "./Navbar"
 // import "./style/style.css"
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import "@/app/style/style.css"
