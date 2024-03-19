@@ -1,4 +1,5 @@
 import NewsSectionOne from "@/Components/News/NewsSectionOne";
+import NewsSectionTwo from "@/Components/News/NewsSectionTwo";
 import { Container } from "@mui/material";
 
 function page() {
@@ -6,6 +7,7 @@ function page() {
       <div className="flex flex-col">
        <Container>
        <NewsSectionOne/>
+       <NewsSectionTwo/>
        </Container>
       </div>
     );
