@@ -1,8 +1,12 @@
+import NewsSectionOne from "@/Components/News/NewsSectionOne";
+import { Container } from "@mui/material";
+
 function page() {
     return (
-      <div>
-        <h1>page Page</h1>
-        <p>This is the Catalog Page content.</p>
+      <div className="flex flex-col">
+       <Container>
+       <NewsSectionOne/>
+       </Container>
       </div>
     );
   }
