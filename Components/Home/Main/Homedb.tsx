@@ -21,6 +21,7 @@ const ImageGallery: FC = async () => {
 
   return (
     <div className='my-10 flex flex-wrap gap-10 p-15 justify-center'>
+      
       {data?.map(({ id, title, url, content, subtitle }) => (
         <div key={id} className='flex gap-2 flex-col w-[22%]'>
           <div className=' gbox bg-red w-[16%] p-1'>
@@ -35,6 +36,7 @@ const ImageGallery: FC = async () => {
           </Typography>
         </div>
       ))}
+     
     </div>
   );
 };

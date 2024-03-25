@@ -20,6 +20,7 @@
     "@mui/icons-material": "^5.15.6",
     "@mui/material": "^5.15.6",
     "@mui/styled-engine-sc": "^6.0.0-alpha.13",
+    "aos": "^2.3.4",
     "axios": "^1.6.7",
     "flowbite-react": "^0.7.2",
     "heroicons": "^2.1.1",
